@@ -25,6 +25,8 @@ data/
 *.m4a
 *.caf
 backups/
+private-room*.json
+*-private-room*.json
 artifacts/
 *.xcarchive/
 *.ipa

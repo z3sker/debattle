@@ -275,7 +275,7 @@
     },
     {
       "path": "Server/scripts/verify-solana-receipt.mjs",
-      "sha256": "f42674deca4288b9963ef9ce1771c8ad78e9f840f0e400bfadb9897f0c642fa0"
+      "sha256": "3398841e1495dd65f0650d219469f7a87fd4c97f3833c3f707884cf19c3b4ad4"
     },
     {
       "path": "Server/src/apple-auth.js",

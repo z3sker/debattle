@@ -16,6 +16,8 @@ npm ci
 node scripts/verify-solana-receipt.mjs ../docs/evidence/receipt.json 9CZ9PhQZmkpbTX2THhFYPBphEtXsnbe2Wv33B7shwayL
 ```
 
+An optional third argument, a private room JSON snapshot obtained by an authorized participant, recomputes the private content commitment locally; the snapshot is never uploaded by the verifier. Never commit or publish that file.
+
 ## Run locally
 
 Requirements: Node.js 24+, Xcode with an already-installed iOS 26+ Simulator. No paid service is needed for local rooms. Groq requires your own optional API key and available quota.
