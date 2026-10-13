@@ -52,9 +52,9 @@ final class SolanaReceiptAPI: Sendable {
     let connection: CloudPracticeConnection
     private let session: URLSession
 
-    init(connection: CloudPracticeConnection) {
+    init(connection: CloudPracticeConnection, configuration: URLSessionConfiguration? = nil) {
         self.connection = connection
-        let configuration = URLSessionConfiguration.ephemeral
+        let configuration = (configuration?.copy() as? URLSessionConfiguration) ?? .ephemeral
         configuration.timeoutIntervalForRequest = 90
         configuration.timeoutIntervalForResource = 120
         configuration.urlCache = nil

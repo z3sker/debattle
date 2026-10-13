@@ -13,6 +13,8 @@ export const digestOf = value => createHash('sha256').update(canonical(value)).d
 
 export function makeRecord(room) {
   requireThat(room.status === 'finished' && room.debateParticipants.length > 0, 'Finish a started debate before creating a receipt.', 409);
+  requireThat(room.format.turns.every(turn => Number.isFinite(room._completedTurns?.[turn.id])),
+    'Every scheduled turn must finish before publishing. This room ended early; no complete-round receipt can be created.', 409);
   const nonce = randomBytes(32).toString('hex');
   // Only salted digests and anonymous structural metadata leave the room. No names,
   // motion, transcript, tokens, participant IDs or AI quotations enter the receipt.
@@ -41,6 +43,8 @@ export class SolanaProofs {
   get(roomID) { const row = this.row(roomID); return row?.state === 'confirmed' ? JSON.parse(row.receipt) : null; }
   async publish(room) {
     requireThat(this.key, 'Solana devnet receipts are not configured on this server.', 503);
+    requireThat(room.status === 'finished' && room.format.turns.every(turn => Number.isFinite(room._completedTurns?.[turn.id])),
+      'Every scheduled turn must finish before publishing. This room ended early.', 409);
     if (this.jobs.has(room.id)) return this.jobs.get(room.id);
     const task = this.publishOnce(room).finally(() => this.jobs.delete(room.id));
     this.jobs.set(room.id, task); return task;

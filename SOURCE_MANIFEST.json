@@ -115,7 +115,7 @@
     },
     {
       "path": "Debattle/Services/SolanaReceiptAPI.swift",
-      "sha256": "86f646beb3b3cc5f877295fb3aa6baaaa0bcb5e4e659d785d2b6e2dc31575a2d"
+      "sha256": "d4c14e3b82e39c358d225aba4c2cb3b8ec8a7e196259f7885a1d521ec85d9405"
     },
     {
       "path": "Debattle/Services/SpeechTranscriber.swift",
@@ -171,7 +171,7 @@
     },
     {
       "path": "Debattle/Views/SolanaReceiptView.swift",
-      "sha256": "ddca319de38f6a7aab5f8e1e901871db29273c4acb18e6ed989c360b867db003"
+      "sha256": "aadbec2812dc509056cc962ea68398fa1807ab3234d0255e89792416bf30e481"
     },
     {
       "path": "Debattle/Views/UIAuditView.swift",
@@ -179,7 +179,7 @@
     },
     {
       "path": "Debattle.xcodeproj/project.pbxproj",
-      "sha256": "56205b3a6af13823e52a832f0849d53eec1ffde2d7c9d4aff4b7189b1c59fba8"
+      "sha256": "678ada91cb8dc0a9faf9273d4023ca6ab4c9f27e0e7ae0b6b771ea60052fbd04"
     },
     {
       "path": "Debattle.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
@@ -220,6 +220,10 @@
     {
       "path": "DebattleTests/RoundJudgeTests.swift",
       "sha256": "a46cb8a97a60fa6c39d8621917c207079bc27ac3480193f4a1d606d0dd05573d"
+    },
+    {
+      "path": "DebattleTests/SolanaReceiptTests.swift",
+      "sha256": "a92682d9a56de28dc892c6edad7d669631332facef958b889766f90584efe8cf"
     },
     {
       "path": "DebattleTests/SpeechAvailabilityTests.swift",
@@ -307,7 +311,7 @@
     },
     {
       "path": "Server/src/solana-proof.js",
-      "sha256": "c7dd57e978c2a56f05ebe03c94b787fea9aebab80852993c8e8db4014cd9c47f"
+      "sha256": "a1bb53f1a8a237569e2717cb5270dfdf3ffe01395a5e3a074f7c62083c98f5c5"
     },
     {
       "path": "Server/src/store.js",
@@ -339,7 +343,7 @@
     },
     {
       "path": "Server/test/solana-proof.test.js",
-      "sha256": "84819d2b52ab5b5e51ad1f7815e3d8d3b1cef8c4f95e11412df2aaadd6915cf8"
+      "sha256": "4602baa207db8466e41e2df5db4bf700660f7b481606091ac66e027342d44463"
     },
     {
       "path": "project.yml",

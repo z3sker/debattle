@@ -18,6 +18,7 @@ test('canonical hashing is order-independent and receipt excludes private room c
  assert.ok(!JSON.stringify(record).includes('PRIVATE'));assert.ok(!JSON.stringify(record).includes('SECRET-ID'));
  assert.equal(record.resultKind,'completion-only-no-winner');assert.notEqual(makeRecord(room()).contentDigest,record.contentDigest);
  assert.throws(()=>makeRecord({...room(),status:'live'}));
+ assert.throws(()=>makeRecord({...room(),_completedTurns:{g1:98}}), /ended early/);
 });
 test('verification checks content, trusted issuer, successful transaction and exact Memo instruction',async()=>{
  const f=fixture();try {

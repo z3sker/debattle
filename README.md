@@ -52,7 +52,7 @@ Raw audio is relayed ephemerally. Cloud transcription/coaching needs explicit co
 
 ## Solana receipt
 
-After a started debate finishes, its host can explicitly consent to **Publish devnet proof** in the native Results screen. The server captures a salted SHA-256 digest of the private room snapshot and hashes an anonymous completion record containing that commitment. It signs a transaction to Solana's Memo program with `debattle:v1:<record digest>`.
+After a started debate finishes **every scheduled turn**, its host can explicitly consent to **Publish devnet proof** in the native Results screen. A room that ended early cannot publish a complete-round receipt. The server captures a salted SHA-256 digest of the private room snapshot and hashes an anonymous completion record containing that commitment. It signs a transaction to Solana's Memo program with `debattle:v1:<record digest>`.
 
 The receipt is returned only after the transaction is confirmed. Retries use the same persisted signed transaction. Participants can view the explorer link, export a JSON receipt, and ask the verifier to compare its content and the configured server signer against the actual confirmed transaction. Editing the record invalidates the digest.
 

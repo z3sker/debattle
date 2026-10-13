@@ -44,6 +44,7 @@
 		A472EF88828AD13216F1573F /* DebateModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3406CCFD1EA95DD0FA7614C /* DebateModels.swift */; };
 		C661A8A28929B506A496EAF1 /* DebateRulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB5C40B696D3071A9B24CE /* DebateRulesTests.swift */; };
 		CB2C7457BB87A702CDD2EF53 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9384554D9A9F7454F0F458F /* Design.swift */; };
+		CE920CA9E3A7C22EE18FD4CF /* SolanaReceiptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D466FB1AAF1D58D154E89F /* SolanaReceiptTests.swift */; };
 		D58CCF45B08F7E49885EBC54 /* FormatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FC7B2B2E98AEB3C4871A63 /* FormatsView.swift */; };
 		D699A9EBB05B8ADAE4F193FD /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCD2546B01C593AA1AC097 /* AccountView.swift */; };
 		E4B3082AFF89F42FA59AD888 /* CloudRoomAudioBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9714473A0FCF43BEFCBFA4AD /* CloudRoomAudioBuffer.swift */; };
@@ -74,6 +75,7 @@
 		15F59F649F95AF28FF5581AF /* CloudRoomConsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudRoomConsentView.swift; sourceTree = "<group>"; };
 		1FDB25528167AFF33F82E7A8 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
 		2496D07270887FE120CD3285 /* CloudPracticeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudPracticeAPI.swift; sourceTree = "<group>"; };
+		25D466FB1AAF1D58D154E89F /* SolanaReceiptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolanaReceiptTests.swift; sourceTree = "<group>"; };
 		27CFE26BA8B3A0F943CA0165 /* Debattle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Debattle.entitlements; sourceTree = "<group>"; };
 		2B4AA826A32D713C6F5FEB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		33848956B20F69059E13D6E1 /* AppStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreTests.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				BEBB5C40B696D3071A9B24CE /* DebateRulesTests.swift */,
 				CBB1BF15466C40F4BDEA7534 /* PracticeSessionTests.swift */,
 				BF3DF0949783B6D0469310E2 /* RoundJudgeTests.swift */,
+				25D466FB1AAF1D58D154E89F /* SolanaReceiptTests.swift */,
 				363381CF9F30954414A9B58A /* SpeechAvailabilityTests.swift */,
 				DABA0C7B695F6209EDF7EEAA /* TranscriptRecoveryTests.swift */,
 				5A2FF0463A44EF77ED379752 /* TranscriptTransportTests.swift */,
@@ -383,6 +386,7 @@
 				C661A8A28929B506A496EAF1 /* DebateRulesTests.swift in Sources */,
 				43DD0DA218B5D8A580A7F290 /* PracticeSessionTests.swift in Sources */,
 				832CF39C36D2440ABFFE7257 /* RoundJudgeTests.swift in Sources */,
+				CE920CA9E3A7C22EE18FD4CF /* SolanaReceiptTests.swift in Sources */,
 				6ED22C2897427D29504202DF /* SpeechAvailabilityTests.swift in Sources */,
 				257875FB95B4F2B04CB263CE /* TranscriptRecoveryTests.swift in Sources */,
 				01A812E8A4CDB6D69B00BA3E /* TranscriptTransportTests.swift in Sources */,

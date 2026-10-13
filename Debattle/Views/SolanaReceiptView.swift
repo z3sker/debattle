@@ -67,7 +67,7 @@ struct SolanaReceiptView: View {
                 Text("Before publishing").font(.headline)
                 Text("Only a salted fingerprint and protocol marker go on-chain. Your motion, transcript and speaker names stay off-chain. The exported receipt contains anonymous completion metadata and hashed source data.")
                     .font(.subheadline).foregroundStyle(.secondary)
-                Text("Publish after all speeches and any cloud verdict are final. This creates one permanent snapshot; a later edit will not update it. On-device verdicts are not included.")
+                Text("One immutable snapshot per room. Generate a cloud verdict before publishing if you want its digest included. Later transcript or verdict changes are not included. On-device verdicts are not included.")
                     .font(.footnote).foregroundStyle(.secondary)
                 Toggle("I agree to publish this record’s fingerprint publicly on Solana devnet.", isOn: $consent)
                     .font(.subheadline).disabled(isWorking).accessibilityIdentifier("proof.consent")
