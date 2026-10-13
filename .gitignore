@@ -1,0 +1,43 @@
+# Secrets, wallet keys and credentials
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*keypair*.json
+*devnet-key*.json
+.local/
+.secrets/
+secrets/
+
+# Runtime/user data; never publish recordings, transcripts, database snapshots
+data/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+*.wav
+*.m4a
+*.caf
+backups/
+artifacts/
+*.xcarchive/
+*.ipa
+
+# Build/tool output and user Xcode state
+node_modules/
+.build/
+DerivedData/
+build/
+coverage/
+.xcodebuildmcp/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+.idea/
+.vscode/

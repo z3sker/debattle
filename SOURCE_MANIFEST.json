@@ -1,0 +1,349 @@
+{
+  "description": "Sanitized source snapshot; no private runtime data or history.",
+  "files": [
+    {
+      "path": "Debattle/App/AppStore.swift",
+      "sha256": "b009fd56ed17b02efb78acdbd6fcaa1417b96be1539e434429f76648e579c5fd"
+    },
+    {
+      "path": "Debattle/App/DebattleApp.swift",
+      "sha256": "1312a24695799b3e9f69e16960a651a822cc1be0f8e3a0a91f658996cf0cd739"
+    },
+    {
+      "path": "Debattle/Domain/CustomFormatLibrary.swift",
+      "sha256": "07ad497d649384f41b322aaf0ce6d1948f314457b84dbb82a3c91f3102520e28"
+    },
+    {
+      "path": "Debattle/Domain/DebateModels.swift",
+      "sha256": "fb7a3cbc699a0a031653fa0fbbd55574909b5cfdcf1800b3d2388b4b0ce68413"
+    },
+    {
+      "path": "Debattle/Domain/DebateRules.swift",
+      "sha256": "c489e560bd6a5a18c4012f8a39486ccb9967eb314d9e3ee113d3c614016f27f9"
+    },
+    {
+      "path": "Debattle/Domain/FormatCatalog.swift",
+      "sha256": "282068ba5136a27c943deb572b43adb25f19fe6867465dd4866d923b31bbede3"
+    },
+    {
+      "path": "Debattle/Domain/LocalDebateArchive.swift",
+      "sha256": "92d9ff5e92f0963b4f0f6848d29f2aa143041fbf24291c6c1f00fbd8072c3cff"
+    },
+    {
+      "path": "Debattle/Domain/TranscriptRecoveryArchive.swift",
+      "sha256": "1dafda3b85de35d9c23fe5949a5cd3a33bc660bdd42a2f7acae6c0a727e3cc20"
+    },
+    {
+      "path": "Debattle/Domain/TranscriptTransport.swift",
+      "sha256": "b1d6c0b5d9ddd3bb306f13f13274418c3214da5dfcf5d99cf64978983d685668"
+    },
+    {
+      "path": "Debattle/Resources/Assets.xcassets/AccentColor.colorset/Contents.json",
+      "sha256": "ef506aa78a3aa2e67cdcbc450d0ffc564937576143504c5e6a1ee8a421c53e52"
+    },
+    {
+      "path": "Debattle/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "sha256": "bd514169e0357088f06631fcbde54b0ff2fc4bc832aaea18a70f173484dc572c"
+    },
+    {
+      "path": "Debattle/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "6ad2c5c3bbcf972c7f02d217d6afcac3f24a10e30510c7e2d06c582371ed9d22"
+    },
+    {
+      "path": "Debattle/Resources/Assets.xcassets/BrandMark.imageset/BrandMark.png",
+      "sha256": "55cad202cfdf9541ac3238e1bccf1d3eb960c80b830ccc47d890348a6f1b677f"
+    },
+    {
+      "path": "Debattle/Resources/Assets.xcassets/BrandMark.imageset/Contents.json",
+      "sha256": "8464229cf2ab29e85a839ebafdaba7fe670e792b80a3c80069fdaffb0b4dbc6b"
+    },
+    {
+      "path": "Debattle/Resources/Assets.xcassets/Contents.json",
+      "sha256": "10e3b5dc202f1cd9fad1f688c8fc9fe9e9669bf3f8295e67d216b10fd99b6f49"
+    },
+    {
+      "path": "Debattle/Resources/Assets.xcassets/LaunchBackground.colorset/Contents.json",
+      "sha256": "79bf0ede05442864651c5f59f5750aa2d725ef4325264acf02e1e61b850de1f4"
+    },
+    {
+      "path": "Debattle/Resources/Debattle.entitlements",
+      "sha256": "708f69d2c2ecdd3599399e0f714a8056bd283ff92d573cb9d16e46d385fccc9a"
+    },
+    {
+      "path": "Debattle/Resources/Info.plist",
+      "sha256": "56abf7be84500af0d176686310bd22f2a4ce4093a5f2df359f59e59ebaac24a1"
+    },
+    {
+      "path": "Debattle/Resources/PrivacyInfo.xcprivacy",
+      "sha256": "966d7f93e487e8afd5013ecae3b7bfe995ed6f48daa5e1e15a85db6e7d784d21"
+    },
+    {
+      "path": "Debattle/Services/AccountService.swift",
+      "sha256": "d62fe7a5c8edfd454c928d149a77bd034bc7ce6ec7afef0c393570eff710d67a"
+    },
+    {
+      "path": "Debattle/Services/AppleJudge.swift",
+      "sha256": "096d229ee3d6f9a8fe902a0a327de767dc287b7de149f7aa957d01ba73c343a8"
+    },
+    {
+      "path": "Debattle/Services/CloudPracticeAPI.swift",
+      "sha256": "e774bcc62f3efcc44bc0010621ea1527db26e8d8ad9fbb9da7b80a55b7ce83e7"
+    },
+    {
+      "path": "Debattle/Services/CloudPracticeCoach.swift",
+      "sha256": "3984bd555659aec0b183a091f545ff4cb5b0b356e0f7a70ead10c71536ab9b1a"
+    },
+    {
+      "path": "Debattle/Services/CloudPracticeTranscriber.swift",
+      "sha256": "a4c723c1403677807bcce3c2ece4afb64975e9fd8b089492c6300f0e7a17e481"
+    },
+    {
+      "path": "Debattle/Services/CloudRoomAPI.swift",
+      "sha256": "b36dcd7fa846b9dd9878aa5fc631807f77317d15eee3023881ec56b36ec558d1"
+    },
+    {
+      "path": "Debattle/Services/CloudRoomAudioBuffer.swift",
+      "sha256": "a29e6f3958280f939371df4d08c08af26537308afa27721cc97e99bbe6a1edbf"
+    },
+    {
+      "path": "Debattle/Services/RoomAPI.swift",
+      "sha256": "b4040541a14718a4505e4d7007362650535ff00ed674fe0b5e5057d503e2d71b"
+    },
+    {
+      "path": "Debattle/Services/RoundJudge.swift",
+      "sha256": "006cf6a7355c013387d85b73eda521c0e06b06dcbb5106d3713f8293a1fe5388"
+    },
+    {
+      "path": "Debattle/Services/SolanaReceiptAPI.swift",
+      "sha256": "86f646beb3b3cc5f877295fb3aa6baaaa0bcb5e4e659d785d2b6e2dc31575a2d"
+    },
+    {
+      "path": "Debattle/Services/SpeechTranscriber.swift",
+      "sha256": "3a2f5d134f30751cc59b1f69ff9930f31363014ead749d6cb0c05bfb972aba42"
+    },
+    {
+      "path": "Debattle/Services/VoiceService.swift",
+      "sha256": "d968acf0d3776d7a50ab52c2ddd1a88cc3b0105e796d39e33675e51206fb2a97"
+    },
+    {
+      "path": "Debattle/Views/AccountView.swift",
+      "sha256": "38f9de58e9ad05f403be24d9bdc918164738de9ca8e02140b19cae9a2205d4a3"
+    },
+    {
+      "path": "Debattle/Views/CloudRoomConsentView.swift",
+      "sha256": "0c9d42a703f0a6df2bf5e00a06f99028d532a4d9168f1f2e00bfd2efc902ee57"
+    },
+    {
+      "path": "Debattle/Views/CreateRoomView.swift",
+      "sha256": "4d863ace2e0fba8a91337126dc009ec75bc0f80fd44132dc31c69057706e3095"
+    },
+    {
+      "path": "Debattle/Views/Design.swift",
+      "sha256": "fbef38509400401804a7a2da41e32e1d60117dc0b9b9ae6e36498ed9a641a0d3"
+    },
+    {
+      "path": "Debattle/Views/ExploreView.swift",
+      "sha256": "0a39f3bc2dfaed92d1a8f34bb03af548e9b7661da483f4f74bb4355c48898198"
+    },
+    {
+      "path": "Debattle/Views/FormatsView.swift",
+      "sha256": "93b243a6e4fd3cc8fb0bda3260b74a76c9083b7fa3350ebcd0329251c878bb07"
+    },
+    {
+      "path": "Debattle/Views/LiveRoomView.swift",
+      "sha256": "e749d7b6dcbf70d9941441106b0f768d1a9a206de9f18631bdf7edede0160a94"
+    },
+    {
+      "path": "Debattle/Views/PracticeView.swift",
+      "sha256": "d1387bce618a158351c25810002bfca6ba655b6a60817700b6e4f9b56291c83d"
+    },
+    {
+      "path": "Debattle/Views/ProfileView.swift",
+      "sha256": "69216440d8299ebbe0575d4c48b1a88344b4f4f2c8a7c891badc0805e0532e75"
+    },
+    {
+      "path": "Debattle/Views/RootView.swift",
+      "sha256": "eaf637503a757ec1bd4a572ad6992e589cb31080636cac5aa575c0cb4a8d87a4"
+    },
+    {
+      "path": "Debattle/Views/RoundResultsView.swift",
+      "sha256": "1bcadbff949b9bf9e1a47cf57da57eb1c14a1b270ca2b446db2dfae02099d251"
+    },
+    {
+      "path": "Debattle/Views/SolanaReceiptView.swift",
+      "sha256": "ddca319de38f6a7aab5f8e1e901871db29273c4acb18e6ed989c360b867db003"
+    },
+    {
+      "path": "Debattle/Views/UIAuditView.swift",
+      "sha256": "9b351cd76791bb196cc44c9e90d40cf957ad541321b528099a6e2005e26e3ae3"
+    },
+    {
+      "path": "Debattle.xcodeproj/project.pbxproj",
+      "sha256": "56205b3a6af13823e52a832f0849d53eec1ffde2d7c9d4aff4b7189b1c59fba8"
+    },
+    {
+      "path": "Debattle.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+    },
+    {
+      "path": "Debattle.xcodeproj/xcshareddata/xcschemes/Debattle.xcscheme",
+      "sha256": "4d19f2ee941c806e96cd7c1bb540a81b0245b27191c9f9d35a2d9f865cb214f3"
+    },
+    {
+      "path": "DebattleTests/AccountLifecycleTests.swift",
+      "sha256": "40a9f0b223b3823497101ab2c22195f98b39d7f79909b2abe3eab0e61dc175ae"
+    },
+    {
+      "path": "DebattleTests/AppStoreTests.swift",
+      "sha256": "8378cdd47f37a521cb8480f5effa381a35b054533c729b9ea2f43b011e9556aa"
+    },
+    {
+      "path": "DebattleTests/CloudPracticeTests.swift",
+      "sha256": "f53742e114d005193108096eaf076cb8e2d92a573685dd4575e2413ba7b36c44"
+    },
+    {
+      "path": "DebattleTests/CloudRoomTests.swift",
+      "sha256": "35301cbafa3c41dfd0276fc52771b33be735ad9747549092020c4a9cd0a69931"
+    },
+    {
+      "path": "DebattleTests/ConnectionTests.swift",
+      "sha256": "0c9058f9e24979a8be2638fc39b38c9735e70806c1750f71bf642fdac9818e4c"
+    },
+    {
+      "path": "DebattleTests/DebateRulesTests.swift",
+      "sha256": "54449953c60459b77b0695eec4ab3753c0e52e1a6549f2dc1909e5577987b3fe"
+    },
+    {
+      "path": "DebattleTests/PracticeSessionTests.swift",
+      "sha256": "3a77d1cb359a4be3d4789577fcde1fed8024d17825877e94343266c46e040979"
+    },
+    {
+      "path": "DebattleTests/RoundJudgeTests.swift",
+      "sha256": "a46cb8a97a60fa6c39d8621917c207079bc27ac3480193f4a1d606d0dd05573d"
+    },
+    {
+      "path": "DebattleTests/SpeechAvailabilityTests.swift",
+      "sha256": "8777bdbf6347e1de2d4067fce8109f4a855caaa90d5a51cb8d7dd41cb40c35fd"
+    },
+    {
+      "path": "DebattleTests/TranscriptRecoveryTests.swift",
+      "sha256": "d1fa7df919533440e474c15bf9fcbdf58ef39bdb4c38e611262c8b59b9f7d966"
+    },
+    {
+      "path": "DebattleTests/TranscriptTransportTests.swift",
+      "sha256": "e4eda958667530c2182e10b43781b010c4fa92b5927c2208d5fd504738a015d8"
+    },
+    {
+      "path": "Server/.dockerignore",
+      "sha256": "5a75e03a9195f0776f03f71e628c8bbb9d308ead592ff96d885d836f44df0be5"
+    },
+    {
+      "path": "Server/Dockerfile",
+      "sha256": "8fb97d39302183f79067e39f2de03c705abc309f7e63538e9de0bdc402f00790"
+    },
+    {
+      "path": "Server/docker-entrypoint.sh",
+      "sha256": "7fa113fdb6af2b65051397b4142d1ee1aea29099cd53d63b82ecf410a3dd8d5c"
+    },
+    {
+      "path": "Server/package-lock.json",
+      "sha256": "bd9fed6f8a640ff98aaac75fa4f066ee509524f2d787bff8994f793ee433d664"
+    },
+    {
+      "path": "Server/package.json",
+      "sha256": "b17e1d8e8f474518eef62a0ac69be88f4ddfe002c4c28d4523e2f1f00b7da706"
+    },
+    {
+      "path": "Server/public/brand.png",
+      "sha256": "55cad202cfdf9541ac3238e1bccf1d3eb960c80b830ccc47d890348a6f1b677f"
+    },
+    {
+      "path": "Server/railway.toml",
+      "sha256": "7c282f5e61c87f37c0ad7dab846e4470e59feb8d2210658d9979a5a90ce73e39"
+    },
+    {
+      "path": "Server/scripts/demo-solana.mjs",
+      "sha256": "8663fada0d814cbdbec54a35e34a16c9b1c534727444abd14d074dd6a85e0ccd"
+    },
+    {
+      "path": "Server/scripts/moderate.mjs",
+      "sha256": "19ef8cdb1e420c74b6351d4e5e26107f9ae23661c750adce1d3fdf97eac1f3bb"
+    },
+    {
+      "path": "Server/scripts/sqlite-backup.mjs",
+      "sha256": "486a24469dd19f82f28bc5c0548d105f8b4ee6585b6ee1de41314cb0f98f04b8"
+    },
+    {
+      "path": "Server/scripts/verify-solana-receipt.mjs",
+      "sha256": "f42674deca4288b9963ef9ce1771c8ad78e9f840f0e400bfadb9897f0c642fa0"
+    },
+    {
+      "path": "Server/src/apple-auth.js",
+      "sha256": "b13047791c841d8817f34fd69c7f121e0249612255cf26ab84786b77fa647c9a"
+    },
+    {
+      "path": "Server/src/moderation.js",
+      "sha256": "cc48a7a68380815dc6988fd0b4593872161037c0907cf4695776ee7f9653739a"
+    },
+    {
+      "path": "Server/src/practice-ai.js",
+      "sha256": "36eb1cdb8ddcb624310d07ea9f432be82c1f11b0264cd94e0994a838c297b4e0"
+    },
+    {
+      "path": "Server/src/public-pages.js",
+      "sha256": "eafa77b7495bec7a93b6ce2e8b4b677e07bc20a4290b1954386e436b02a1ae13"
+    },
+    {
+      "path": "Server/src/room-ai.js",
+      "sha256": "989d76e88ffbf952bf41259af60289e7501c72738c2bb6a3be272af784573138"
+    },
+    {
+      "path": "Server/src/rooms.js",
+      "sha256": "190f46d49d1dfb912e43621d7112b76ed29ff156c4f2aea1e3dd32682db78c0c"
+    },
+    {
+      "path": "Server/src/server.js",
+      "sha256": "4ba190cd1aafd0546dc1219eb18f601ad1e6a292d2e69dae99cacd1e783dd744"
+    },
+    {
+      "path": "Server/src/solana-proof.js",
+      "sha256": "c7dd57e978c2a56f05ebe03c94b787fea9aebab80852993c8e8db4014cd9c47f"
+    },
+    {
+      "path": "Server/src/store.js",
+      "sha256": "58c5a15900584d0671037e505ab5b127620de117d7bf414bd47199748b3b99f7"
+    },
+    {
+      "path": "Server/src/validation.js",
+      "sha256": "bc38f8deb76e6339f7439460389ce6e9fb6615ec6db30c9c62d4446f1c2d6e01"
+    },
+    {
+      "path": "Server/test/deployment.test.js",
+      "sha256": "6a148d32018a4741a2da6911489020e4d4c0870e09d00d739c4be6b2ab9855ed"
+    },
+    {
+      "path": "Server/test/practice-ai.test.js",
+      "sha256": "ce1f869c6e4cd3f48d8f6ba5fa4b2bda29ec908a3fc837216106fc81c31d0a07"
+    },
+    {
+      "path": "Server/test/public-release.test.js",
+      "sha256": "7a92b34f2a82770f2b75aa1585b55fd71f61ab194c9b36e1c5125c244502f793"
+    },
+    {
+      "path": "Server/test/room-ai.test.js",
+      "sha256": "258f2dee1583c9b1d7581fabf67748c48fb9d70f0f1d202caf897903a392e6ad"
+    },
+    {
+      "path": "Server/test/server.test.js",
+      "sha256": "98a12817348ac90645e6227e0ad3b90d784770f5a813ac326df6de70a7e538d7"
+    },
+    {
+      "path": "Server/test/solana-proof.test.js",
+      "sha256": "84819d2b52ab5b5e51ad1f7815e3d8d3b1cef8c4f95e11412df2aaadd6915cf8"
+    },
+    {
+      "path": "project.yml",
+      "sha256": "3e72141e0611dea0cd2912ebb991077469ec03831d1b45527474934bb20f0db6"
+    }
+  ]
+}

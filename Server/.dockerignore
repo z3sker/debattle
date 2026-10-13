@@ -1,0 +1,11 @@
+*
+!package.json
+!package-lock.json
+!Dockerfile
+!docker-entrypoint.sh
+!src/
+!src/**
+!public/
+!public/**
+!scripts/
+!scripts/sqlite-backup.mjs

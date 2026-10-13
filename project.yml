@@ -1,0 +1,42 @@
+name: Debattle
+options:
+  bundleIdPrefix: app.debattle
+  deploymentTarget:
+    iOS: '26.0'
+  xcodeVersion: '26.0'
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    SWIFT_STRICT_CONCURRENCY: complete
+    MARKETING_VERSION: '1.0.0'
+    CURRENT_PROJECT_VERSION: 5
+    TARGETED_DEVICE_FAMILY: '1,2'
+targets:
+  Debattle:
+    type: application
+    platform: iOS
+    sources:
+      - path: Debattle
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.debattle.ios
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: Debattle/Resources/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ENTITLEMENTS: Debattle/Resources/Debattle.entitlements
+    scheme:
+      testTargets:
+        - DebattleTests
+  DebattleTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: DebattleTests
+    dependencies:
+      - target: Debattle
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: app.debattle.tests

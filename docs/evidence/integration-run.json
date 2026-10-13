@@ -1,0 +1,20 @@
+{
+  "scenario": "Two scripted test speakers; real server lifecycle and real devnet transaction; no AI judgment",
+  "roomID": "e632b83a-8137-4431-900e-1cbceeb51dad",
+  "explorerURL": "https://explorer.solana.com/tx/4YtGKFDxUz9xE8HRjrNsTzo17kU47aeLsiKzQwKDmz3ERknHXnroDeELehZNKeheHSyiNraWd6ddyKN1sUppSU6h?cluster=devnet",
+  "signature": "4YtGKFDxUz9xE8HRjrNsTzo17kU47aeLsiKzQwKDmz3ERknHXnroDeELehZNKeheHSyiNraWd6ddyKN1sUppSU6h",
+  "signer": "9CZ9PhQZmkpbTX2THhFYPBphEtXsnbe2Wv33B7shwayL",
+  "verified": {
+    "verified": true,
+    "reason": "Confirmed on Solana devnet. The record matches the server-signed digest. This proves integrity, not debate fairness, speaker identity or factual truth.",
+    "slot": 510536334,
+    "blockTime": 1791873257,
+    "signer": "9CZ9PhQZmkpbTX2THhFYPBphEtXsnbe2Wv33B7shwayL"
+  },
+  "tampered": {
+    "verified": false,
+    "reason": "The receipt content has changed."
+  },
+  "idempotent": true,
+  "receiptFile": "receipt.json"
+}
