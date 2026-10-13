@@ -295,7 +295,7 @@
     },
     {
       "path": "Server/src/public-pages.js",
-      "sha256": "eafa77b7495bec7a93b6ce2e8b4b677e07bc20a4290b1954386e436b02a1ae13"
+      "sha256": "084c53737be3c592ec84dbec9c9ee065cc3301f069eb56f2d6eadd154c48500f"
     },
     {
       "path": "Server/src/room-ai.js",

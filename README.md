@@ -8,6 +8,8 @@ This repository is a sanitized source snapshot: the actual SwiftUI app, Node.js 
 
 The evidence uses two **scripted test speakers**, the real HTTP room lifecycle, a real devnet transaction, independent verification, altered-content rejection, and an idempotent repeat request. It is a completion receipt with **no AI judgment or winner**; it is not a recording of two people debating.
 
+The native iOS app also published a [second confirmed transaction](https://explorer.solana.com/tx/4dUcDSZCp21CJnmKqZkzd2LVZbPbRfCZTcvcwEt4fqJ6837LmKegooM89TAx3b8fV4VEcsZgeP3EKhhKFuLF825Y?cluster=devnet) after both scheduled 45-second turns completed. Its [exported receipt](docs/evidence/native-ui-receipt.json) passed the independent CLI verifier at slot `510539994`. Tapping **Verify against Solana** in the simulator returned **Record matches the chain** through the live RPC verifier ([screenshot](docs/evidence/native-verified-receipt.jpg)). This scenario used a scripted opponent and test transcript; it did not test human voice or generate an AI winner.
+
 Verify the included receipt without an app account, running server, API key or private wallet:
 
 ```sh
@@ -79,7 +81,7 @@ The event began on **14 September 2026 at 13:00 UTC**. There is no historical pu
 
 **13 October 2026:** the Solana receipt service, native publish/export/verify UI, receipt tests and independent verification CLI were added to the existing app. The live verification artifacts are linked at the top. Wallet ownership, token rewards, and trustless judging are not claimed.
 
-Verification: **71 backend tests pass**, including the new receipt tests. The native app builds successfully. Native end-to-end UI acceptance is still in progress; the independently reproducible receipt evidence above is the verified HTTP scenario, not a claim of completed device UI testing.
+Verification: **71 backend tests pass**, including the new receipt tests. The native app and native test bundle compile successfully, including three receipt tests; the native test bundle has not been executed. The simulator completed a full two-turn round, published its confirmed receipt, and verified it through the app's **Verify against Solana** action. Independent CLI verification passed for both linked transactions. Real-device microphone and human debate testing are not claimed by these scenarios.
 
 ## Product availability
 

@@ -1,0 +1,24 @@
+{
+  "schema": "debattle-proof-v1",
+  "cluster": "devnet",
+  "signature": "4dUcDSZCp21CJnmKqZkzd2LVZbPbRfCZTcvcwEt4fqJ6837LmKegooM89TAx3b8fV4VEcsZgeP3EKhhKFuLF825Y",
+  "signer": "9CZ9PhQZmkpbTX2THhFYPBphEtXsnbe2Wv33B7shwayL",
+  "digest": "37a67c7643529c72382dedf15e94d6482094f78f1b10e0f92f3013798636f7e0",
+  "memo": "debattle:v1:37a67c7643529c72382dedf15e94d6482094f78f1b10e0f92f3013798636f7e0",
+  "record": {
+    "version": 1,
+    "receiptID": "27cf8bad-772f-4562-92ff-adb5eaf6443e",
+    "nonce": "1a209710de34a4698955b11ec675c01e01c7250d506841fcf3350171c30a39dd",
+    "roomID": "25db3b8d-e482-457c-a009-c6abf10a7663",
+    "finishedAt": 1791874058.512,
+    "status": "finished",
+    "scheduledTurns": 2,
+    "completedTurns": 2,
+    "teamCount": 2,
+    "speakerCount": 2,
+    "transcriptSegments": 1,
+    "resultKind": "completion-only-no-winner",
+    "contentDigest": "6f3b097226f65a8cf972f7f4a84f02b341ff4d3ad13e3e4e905ad1dfa5d2ec90"
+  },
+  "explorerURL": "https://explorer.solana.com/tx/4dUcDSZCp21CJnmKqZkzd2LVZbPbRfCZTcvcwEt4fqJ6837LmKegooM89TAx3b8fV4VEcsZgeP3EKhhKFuLF825Y?cluster=devnet"
+}
